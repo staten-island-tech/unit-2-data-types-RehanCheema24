@@ -36,17 +36,6 @@ else:
     q = ("0%")
 if service == bad:
     print("0%") """
-def tip(service_rating):
-    if service_rating == "bad":
-        print("0%")
-    elif service_rating == "okay":
-        print("15%")
-    elif service_rating == "good":
-        print("20%")
-    elif service_rating == "great":
-        print("25%")
-    else:
-        print("Invalid service rating")
 """ def bad(q):
     q = ("0%")
 service = bad
@@ -61,13 +50,17 @@ def good(v):
     q = ("20%")
 service = good
 if service == good:
-    print("20%") """
+    print("20%")
+def great(s):
+    s = ("25%")
+service = great
+if service == great:
+    print("25") """
+""" x = int(input("rehan something"))
+print(x+5)
+y = 3.19 """
 
-
-
-
-
-
+                                              
 
 
 
