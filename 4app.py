@@ -59,6 +59,20 @@ if service == great:
 """ x = int(input("rehan something"))
 print(x+5)
 y = 3.19 """
+""" x= [1,2.3.4.5.6]
+y = [4,5] """
+""" x = 15
+y = 5
+if x % 2 ==0 and y % 2==0:
+    print(both are even) 
+elif x % 2 ==0 and y % 2==0:
+    print("at least 1 is even ")
+ else:
+    print("neither are even")  
+ """
+import math
+positive_infinity = math.inf
+
 
                                               
 
