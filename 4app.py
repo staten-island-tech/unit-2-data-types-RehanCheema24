@@ -32,10 +32,7 @@ if remainder == 1:
     print ("Odd")
 else:
     print("Even") """
-""" def bad(q):
-    q = ("0%")
-if service == bad:
-    print("0%") """
+
 """ def bad(q):
     q = ("0%")
 service = bad
@@ -51,30 +48,26 @@ def good(v):
 service = good
 if service == good:
     print("20%")
-def great(s):
-    s = ("25%")
+def great(o):
+    o = ("25%")
 service = great
 if service == great:
     print("25") """
-""" x = int(input("rehan something"))
-print(x+5)
-y = 3.19 """
-""" x= [1,2.3.4.5.6]
-y = [4,5] """
-""" x = 15
-y = 5
-if x % 2 ==0 and y % 2==0:
-    print(both are even) 
-elif x % 2 ==0 and y % 2==0:
-    print("at least 1 is even ")
- else:
-    print("neither are even")  
- """
-import math
-positive_infinity = math.inf
+""" def find_factors(number):
+    factors = []
+    for i in range(1, number + 1):
+        if number % i == 0:
+            factors.append(i)
+    return factors
+num = 112
+print("Factors of", num, "are:", find_factors(num))
+  """
 
 
-                                              
+
+
+
+
 
 
 
