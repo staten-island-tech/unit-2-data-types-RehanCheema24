@@ -32,7 +32,6 @@ if remainder == 1:
     print ("Odd")
 else:
     print("Even") """
-
 """ def bad(q):
     q = ("0%")
 service = bad
@@ -48,11 +47,11 @@ def good(v):
 service = good
 if service == good:
     print("20%")
-def great(o):
-    o = ("25%")
+def great(s):
+    s = ("25%")
 service = great
 if service == great:
-    print("25") """
+    print("25")  """
 """ def find_factors(number):
     factors = []
     for i in range(1, number + 1):
@@ -60,15 +59,13 @@ if service == great:
             factors.append(i)
     return factors
 num = 112
-print("Factors of", num, "are:", find_factors(num))
-  """
+print("Factors of", num, "are:", find_factors(num)) """
+def GCF(a,b)
+
+
+                                              
 
 
 
 
-
-
-
-
-
-
+ 
