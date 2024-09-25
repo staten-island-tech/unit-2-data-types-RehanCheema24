@@ -60,20 +60,12 @@ if service == great:
     return factors
 num = 112
 print("Factors of", num, "are:", find_factors(num)) """
-def find_gcf(a,b):
-    while a:
-        a, b = b, a % b 
-        return a
-num1 = 54
-num2 = 68
-print("The GCF IS Find gcf num 1 ")
+import math
+num1 = int(input("Input num 1: "))
+num2 = int(input("Input num 2: "))
+gcf = math.gcd(num1, num2)
+print("The GCF of these 2 numbers is", gcf)
 
-+
-
-
-
-
-                                              
 
 
 
