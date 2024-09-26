@@ -65,11 +65,13 @@ num1 = int(input("Input num 1: "))
 num2 = int(input("Input num 2: "))
 gcf = math.gcd(num1, num2)
 print("The GCF of these 2 numbers is", gcf) """
-verb = input("print verb")
-future_tense_verb= input("print future tense verb")
-noun= input("print noun")
-num= input("number")
-celebrity = input("print celebrity")
-
-
+celebrity = input("print celebrity:")
+verb = input("Print a verb:")
+noun = input("Print a noun:")
+num = input("Print a number:")
+future_tense_verb = input("Print a future tense verb:")
+madlib = f"Last weekend, {celebrity} decided to {verb} at the park. \
+They brought a {noun} and played for {num} hours straight. \
+Afterwards, they said they {future_tense_verb} again next weekend."
+print(madlib)
  
