@@ -31,8 +31,8 @@ quotient, remainder = divmod(x,2)
 if remainder == 1:
     print ("Odd")
 else:
-    print("Even") """
-""" def bad(q):
+    pri("Even") """
+""" tdef bad(q):
     q = ("0%")
 service = bad
 if service == bad:
@@ -52,26 +52,31 @@ def great(s):
 service = great
 if service == great:
     print("25")  """
-""" def find_factors(number):
+ """ def find_factors(number):
     factors = []
     for i in range(1, number + 1):
         if number % i == 0:
             factors.append(i)
     return factors
-num = 112
-print("Factors of", num, "are:", find_factors(num)) """
-""" import math
-num1 = int(input("Input num 1: "))
-num2 = int(input("Input num 2: "))
-gcf = math.gcd(num1, num2)
-print("The GCF of these 2 numbers is", gcf) """
+num = 112 """
+""" print("Factors of", num, "are:", find_factors(num)) """
+""" print("The GCF of these 2 numbers is", gcf) 
 celebrity = input("print celebrity:")
 verb = input("Print a verb:")
 noun = input("Print a noun:")
 num = input("Print a number:")
 future_tense_verb = input("Print a future tense verb:")
 madlib = f"Last weekend, {celebrity} decided to {verb} at the park. \
-They brought a {noun} and played for {num} hours straight. \
+They brought a {noun} and played for {num} minutes straight. \
 Afterwards, they said they {future_tense_verb} again next weekend."
-print(madlib)
+print(madlib) """
+a = 42
+b = 54
+for i in range (2,a+1)
+if a % i == 0 and B:
+
+
+print("The GCF of these 2 numbers is", gcf) 
+
+
  
