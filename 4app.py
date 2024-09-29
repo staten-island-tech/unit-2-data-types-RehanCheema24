@@ -1,4 +1,4 @@
-""" x = "this is a thing"
+"""  x = "this is a thing"
 y= x.split( )
 z = y[0]
 print(y)
@@ -11,7 +11,7 @@ if day_of_week == "Tuesday":
 else:
     print("incorrect")
 day_of_week = Tuesday
- """
+  """
  
 """ temp = 58
 if temp > 68:
@@ -31,52 +31,36 @@ quotient, remainder = divmod(x,2)
 if remainder == 1:
     print ("Odd")
 else:
-    pri("Even") """
-""" tdef bad(q):
-    q = ("0%")
-service = bad
-if service == bad:
-    print("0%")
-def okay(m):
-    m = ("15%")
-service = okay
-if service == okay:
-    print ("15%")
-def good(v):
-    q = ("20%")
-service = good
-if service == good:
-    print("20%")
-def great(s):
-    s = ("25%")
-service = great
-if service == great:
-    print("25")  """
- """ def find_factors(number):
+pri("Even") """
+def calculate_tip(bill, service):
+    if service == "bad":
+        tip_percentage = 0
+    elif service == "okay":
+        tip_percentage = 15
+    elif service == "good":
+        tip_percentage = 20
+    elif service == "great":
+        tip_percentage = 25
+    else:
+        return "Invalid service rating"
+    
+    tip_amount = (tip_percentage / 100) * bill
+    return tip_amount
+
+""" def find_factors(num):
     factors = []
-    for i in range(1, number + 1):
-        if number % i == 0:
+    for i in range(1, num + 1):
+        if num % i == 0:
             factors.append(i)
     return factors
-num = 112 """
-""" print("Factors of", num, "are:", find_factors(num)) """
-""" print("The GCF of these 2 numbers is", gcf) 
-celebrity = input("print celebrity:")
-verb = input("Print a verb:")
-noun = input("Print a noun:")
-num = input("Print a number:")
-future_tense_verb = input("Print a future tense verb:")
-madlib = f"Last weekend, {celebrity} decided to {verb} at the park. \
-They brought a {noun} and played for {num} minutes straight. \
-Afterwards, they said they {future_tense_verb} again next weekend."
-print(madlib) """
-a = 42
+number = 42
+factors_of_number = find_factors(number)
+print(f"The factors of {number} are: {factors_of_number}") """
+""" a = 42
 b = 54
-for i in range (2,a+1)
-if a % i == 0 and B:
+for i in range(2, a + 1):
+    if a % i == 0 and b % i == 0:
+        gcf = i
+print("The GCF of these 2 numbers is", gcf) """
 
 
-print("The GCF of these 2 numbers is", gcf) 
-
-
- 
