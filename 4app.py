@@ -32,7 +32,7 @@ if remainder == 1:
     print ("Odd")
 else:
 pri("Even") """
-def calculate_tip(bill, service):
+""" def calculate_tip(bill, service):
     if service == "bad":
         tip_percentage = 0
     elif service == "okay":
@@ -45,7 +45,7 @@ def calculate_tip(bill, service):
         return "Invalid service rating"
     
     tip_amount = (tip_percentage / 100) * bill
-    return tip_amount
+    return tip_amount """
 
 """ def find_factors(num):
     factors = []
